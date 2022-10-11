@@ -40,8 +40,8 @@ async def start(client, message):
     if message.chat.type != "private":
         buttons = [
                   [
-                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ab_sumit"),
-                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/bellysupportchat"),
+                   InlineKeyboardButton("OWNER", url="https://t.me/flaming_AI"),
+                   InlineKeyboardButton("CHAT GROUP", url="https://t.me/friendship_zone_143"),
                   ]       
                   ]
         await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
@@ -49,18 +49,16 @@ async def start(client, message):
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/bellyxrobot?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/flamingchatBot?startgroup=true")
         ]
         ]
-        video = "https://te.legra.ph/file/05916beb5a619d7be9a77.mp4"
+        
         await message.reply_video(video, caption=f"""ʜᴇʟʟᴏ[{message.from_user.first_name}](tg://user?id={message.from_user.id}),
-mere babu ne thana thaya kya?? ...
+
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴏᴡɴᴇʀ   [𝗦𝗨𝗠𝗜𝗧](https://t.me/Kya_rakhu_smjh_nhi_aa_rha)
-┣★ ᴜᴘᴅᴀᴛᴇs [𝗖𝗛𝗔𝗡𝗡𝗘𝗟](https://t.me/ab_sumit)
-┣★ sᴜᴘᴘᴏʀᴛ [𝗚𝗥𝗢𝗨𝗣](https://t.me/bellysupportchat)
-┣★ sᴏᴜʀᴄᴇ  [R𝗥𝗘𝗣𝗢](https://github.com/isu-op-op/CHATBOT)
+┣★ ᴏᴡɴᴇʀ   [PANKAJ](https://t.me/pankaj10161)
+┣★ sᴜᴘᴘᴏʀᴛ [𝗚𝗥𝗢𝗨𝗣](https://t.me/friendship_zone_143)
 ┗━━━━━━━━━━━━━━━━━┛
 """, reply_markup=InlineKeyboardMarkup(buttons))
 
